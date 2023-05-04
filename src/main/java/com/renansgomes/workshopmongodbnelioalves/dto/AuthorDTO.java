@@ -1,21 +1,22 @@
-package com.renansgomes.workshopmongodbnelioalves.domain;
+package com.renansgomes.workshopmongodbnelioalves.dto;
 
 import java.io.Serializable;
 
-public class UserDTO implements Serializable {
+import com.renansgomes.workshopmongodbnelioalves.domain.User;
+
+public class AuthorDTO implements Serializable {
+
 	private static final long serialVersionUID = 1L;
 	
 	private String id;
 	private String name;
-	private String email;
 	
-	public UserDTO() {
+	public AuthorDTO() {
 	}
-	
-	public UserDTO(User obj) {
+
+	public AuthorDTO(User obj) {
 		id = obj.getId();
 		name = obj.getName();
-		email = obj.getEmail();
 	}
 
 	public String getId() {
@@ -26,19 +27,11 @@ public class UserDTO implements Serializable {
 		return name;
 	}
 
-	public String getEmail() {
-		return email;
-	}
-
 	public void setId(String id) {
 		this.id = id;
 	}
 
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
 	}
 }

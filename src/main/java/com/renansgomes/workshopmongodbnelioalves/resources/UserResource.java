@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.renansgomes.workshopmongodbnelioalves.domain.User;
-import com.renansgomes.workshopmongodbnelioalves.domain.UserDTO;
+import com.renansgomes.workshopmongodbnelioalves.dto.UserDTO;
 import com.renansgomes.workshopmongodbnelioalves.services.UserService;
 
 @RestController

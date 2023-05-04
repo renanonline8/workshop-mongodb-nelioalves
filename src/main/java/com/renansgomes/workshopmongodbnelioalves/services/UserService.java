@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.renansgomes.workshopmongodbnelioalves.domain.User;
-import com.renansgomes.workshopmongodbnelioalves.domain.UserDTO;
+import com.renansgomes.workshopmongodbnelioalves.dto.UserDTO;
 import com.renansgomes.workshopmongodbnelioalves.repository.UserRepository;
 import com.renansgomes.workshopmongodbnelioalves.services.exception.ObjectNotFoundException;
 
